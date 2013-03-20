@@ -72,6 +72,7 @@
       if (!data) $this.data('button', (data = new Button(this, options)))
       if (option == 'toggle') data.toggle()
       else if (option) data.setState(option)
+      else alert("error");
     })
   }
 
